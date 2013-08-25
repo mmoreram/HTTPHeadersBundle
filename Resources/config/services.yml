@@ -1,0 +1,10 @@
+parameters:
+    http_headers.listener.class: Mmoreram\HttpHeadersBundle\EventListener\Headers
+
+services:
+    mmoreram.headers.listener:
+        class: %http_headers.listener.class%
+        arguments:
+            - %http_headers.response%
+        tags:
+            - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }

@@ -1,0 +1,25 @@
+{
+    "name": "mmoreram/http-headers-bundle",
+    "type": "symfony-bundle",
+    "description": "Custom Response HTTP Headers definition for Symfony2",
+    "keywords": ["headers", "symfony"],
+    "homepage":  "https://github.com/mmoreram/http-headers-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Morera",
+            "email": "yuhu@mmoreram.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/event-dispatcher": ">=2.2.3",
+        "symfony/config": ">=2.2.3",
+        "symfony/http-kernel": ">=2.2.3",
+        "symfony/dependency-injection": ">=2.2.3"
+    },
+    "target-dir": "mmoreram/http-headers-bundle",
+    "autoload": {
+        "psr-0": { "Mmoreram\\HttpHeadersBundle": "" }
+    }
+}
