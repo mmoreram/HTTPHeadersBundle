@@ -18,7 +18,7 @@
         "symfony/http-kernel": ">=2.2.3",
         "symfony/dependency-injection": ">=2.2.3"
     },
-    "target-dir": "mmoreram/http-headers-bundle",
+    "target-dir": "Mmoreram/HttpHeadersBundle",
     "autoload": {
         "psr-0": { "Mmoreram\\HttpHeadersBundle": "" }
     }
