@@ -1,8 +1,11 @@
-#Custom HTTP Headers for Symfony2
-##The easiest way of adding custom HTTP Headers to your projects
 
-###Installing [HttpHeadersBundle](https://github.com/mmoreram/http-headers-bundle)
-You have to add require line into you composer.json file
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mmoreram/http-headers-bundle/badges/quality-score.png?s=67d48a721ea419be7a09eaede52550efeda8c0c9)](https://scrutinizer-ci.com/g/mmoreram/http-headers-bundle/)
+
+Custom HTTP Headers for Symfony2
+-----
+
+## Installing [HttpHeadersBundle](https://github.com/mmoreram/http-headers-bundle)
+You have to add require line into you `composer.json` file
 
     "require": {
         "php": ">=5.3.3",
@@ -18,13 +21,14 @@ Then you have to use composer to update your project dependencies
 And register the bundle in your appkernel.php file
 
     return array(
+
         // ...
         new Mmoreram\HttpHeadersBundle\HttpHeadersBundle(),
         // ...
     );
 
-###Configuring HttpHeaders Bundle
-You can now configure as many HTTP Headers as you want for your project. You only have to give them a name and a set of values into your config.yml file
+## Configuring HttpHeaders Bundle
+You can now configure as many HTTP Headers as you want for your project. You only have to give them a name and a set of values into your `config.yml` file
 
 
     #Http Headers
@@ -44,5 +48,5 @@ You can now configure as many HTTP Headers as you want for your project. You onl
 
 This bundle will get a random quote in each request. If only one quote is defined, just this quote will be output.
 
-###Add your headers
+## Join X-Jedi
 There is a project called X-Jedi, that encourages all development teams to add their own http-headers under the name of X-Jedi, with their most representative quotes. You can find more info in [X-Jedi Project](http://xjedi.org) webpage
