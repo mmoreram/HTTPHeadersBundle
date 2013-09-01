@@ -1,6 +1,3 @@
-parameters:
-    http_headers.listener.class: Mmoreram\HttpHeadersBundle\EventListener\Headers
-
 services:
     mmoreram.headers.listener:
         class: %http_headers.listener.class%

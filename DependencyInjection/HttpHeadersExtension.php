@@ -28,12 +28,10 @@ class HttpHeadersExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter(
-            'http_headers.response',
-            $config['response']
-        );
+        $container->setParameter('http_headers.response', $config['response']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('parameters.yml');
         $loader->load('services.yml');
     }
 }

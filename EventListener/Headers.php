@@ -18,7 +18,7 @@ use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
  */
 class Headers
 {
-    
+
     /**
      * @var array
      * 
@@ -30,7 +30,7 @@ class Headers
     /**
      * Constructor method
      * 
-     * @param array $headers Headers defined on config
+     * @param array $responseHeaders Headers defined on config
      */
     public function __construct(array $responseHeaders)
     {
