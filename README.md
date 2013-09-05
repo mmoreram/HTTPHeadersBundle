@@ -1,5 +1,4 @@
-
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mmoreram/http-headers-bundle/badges/quality-score.png?s=67d48a721ea419be7a09eaede52550efeda8c0c9)](https://scrutinizer-ci.com/g/mmoreram/http-headers-bundle/)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mmoreram/HTTPHeadersBundle/badges/quality-score.png?s=fc68c628777bd22df39e2c48f26b6c2c8bc35ad3)](https://scrutinizer-ci.com/g/mmoreram/HTTPHeadersBundle/)
 
 Custom HTTP Headers for Symfony2
 -----
