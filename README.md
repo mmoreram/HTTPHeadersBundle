@@ -1,3 +1,4 @@
+[![knpbundles.com](http://knpbundles.com/mmoreram/HTTPHeadersBundle/badge-short)](http://knpbundles.com/mmoreram/HTTPHeadersBundle)  
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mmoreram/HTTPHeadersBundle/badges/quality-score.png?s=fc68c628777bd22df39e2c48f26b6c2c8bc35ad3)](https://scrutinizer-ci.com/g/mmoreram/HTTPHeadersBundle/)
 
 Custom HTTP Headers for Symfony2
