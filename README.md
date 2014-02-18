@@ -53,3 +53,7 @@ Join X-Jedi
 -----
 
 There is a project called X-Jedi, that encourages all development teams to add their own http-headers under the name of X-Jedi, with their most representative quotes. You can find more info in [X-Jedi Project](http://xjedi.org) webpage
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmoreram/httpheadersbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
